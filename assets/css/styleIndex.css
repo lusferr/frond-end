@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+     background-image: linear-gradient(rgb(1, 1, 14), rgb(1, 1, 16)); 
+}
+
+main {
+    margin: 0 300px 0 300px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+a {
+   text-decoration: none; 
+   color: white;
+}
+
+/* ---------------Nav bar------------------ */
+.container {
+    display: flex;
+    flex-flow: row;
+    background-color: rgb(23, 21, 48);
+    justify-content: space-between;
+    padding: 10px 140px 10px 140px;
+}
+
+.icone {
+    
+    font-size: 30px;
+    color: white;
+}
+
+.container ul li{
+    display: inline;
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    
+
+}
+
+.meuGit {
+    
+    font-size: 30px;
+    color: white;
+
+}
+
+
+ /* --------------------Main ------------------*/
+.txt-sobreMim {
+    color: white;
+    font-size: 20px;
+    
+}
+
+/* --------------------parte dos textos ------------------*/
+p {
+    padding-bottom: 14px;
+}
+
+/* --------------------primeira imagem------------------*/
+#img-gato{
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+#img-gato img {
+    border-radius: 10%;
+}
+
+
+/* --------------------PAGINA VIDEOS------------------*/
+.container02 ul li{
+    display: flex;
+    flex-flow: row;
+    background-color: rgb(23, 21, 48);
+    padding: 15px 0 25px 0;
+}
+
+.nav02 {
+    text-align: center;
+
+}
+
+.comentario {
+    color: white;
+}
