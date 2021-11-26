@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styleIndex.css">
+    <title>Blog / Contato</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="icone">
+                <img src="assets/img/iconefoguete.png" alt="">
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="Contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container02">
+            <div class="menu">
+                <h2>
+                    Entre em contato
+                </h2>
+
+                <form class="formulario">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" value="" onkeyup="validarNome()">
+                    <div id='txtNome'></div><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" value="" onkeyup="validarEmail()">
+                    <div id="txtEmail"></div><br>
+
+                    <label for="comentario">Comentario:</label><br>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10"
+                        onkeypress="validarComentario()"></textarea>
+                    <div id='txtComentario'></div><br>
+
+                    <input type="submit" value="Enviar" onclick="enviar()">
+                </form>
+            </div>
+            <div class="endereco">
+                <h2>Endereço</h2>
+
+                <p>Paulus Potterstraat </p>
+                <p>Amsterdã, Holanda do Norte</p>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.635805227694!2d4.878867815994616!3d52.35889035590854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609efaf4c964b%3A0x81af4310a516f2fa!2sPaulus%20Potterstraat%2C%201071%20CX%20Amsterdam%2C%20Pa%C3%ADses%20Baixos!5e0!3m2!1spt-BR!2sbr!4v1637882841386!5m2!1spt-BR!2sbr"
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="containerFooter">
+            <a href="https://github.com/lusferr">
+                <img src="assets/img/icon-git.png" alt="icone github" width="50" height="50">
+            </a>
+            <a href="https://www.linkedin.com/in/luis-fernando-1a24a2189/">
+                <img src="assets/img/icon-linkedin.png" alt="icone linkedin" width="50" height="50">
+            </a>
+            
+        </div>
+    </footer>
+</body>
+<script src="assets/js/script.js"></script>
+
+</html>
